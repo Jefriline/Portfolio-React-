@@ -27,7 +27,7 @@ const Home = () => {
       <div className="home-image">
         <div className="background-shape"></div>
         <img 
-          src="/src/assets/my.png" 
+          src="/assets/my.png" 
           alt="Foto de perfil"
           className="profile-image"
         />

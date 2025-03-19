@@ -1,11 +1,14 @@
-import './NotFound.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./NotFound.css";
 
 const NotFound = () => {
   return (
     <div className="not-found">
       <h1>404</h1>
-      <p>Página no encontrada</p>
-      <p>La ruta que buscas no existe.</p>
+      <h2>Página no encontrada</h2>
+      <p>La página que buscas no existe.</p>
+      <Link to="/">Volver al inicio</Link>
     </div>
   );
 };
