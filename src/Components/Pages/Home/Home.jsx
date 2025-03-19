@@ -8,7 +8,7 @@ const Home = () => {
         <span className="greeting">¡Hola! 👋</span>
         <h1 className="title">
           Soy Jefferson Lopez<br />
-          Estudiante de Analisis yDesarrollo de Software
+          Estudiante de Analisis y Desarrollo de Software
         </h1>
         <p className="subtitle">
           Interesado en el desarrollo Full Stack y en mejorar constantemente mis habilidades. 
