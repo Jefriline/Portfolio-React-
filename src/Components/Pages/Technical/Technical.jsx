@@ -4,7 +4,7 @@ const Technical = () => {
   const technicalSkills = [
     {
       title: 'Frontend',
-      skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Figma']
+      skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Figma', 'React']
     },
     {
       title: 'Backend',
