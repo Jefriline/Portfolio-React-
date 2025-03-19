@@ -1,0 +1,42 @@
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #ffffff;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #2c3e50;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: #3498db;
+  color: #ffffff;
+}
+
+.social-link i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    gap: 15px;
+  }
+
+  .social-link {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+} 

@@ -1,0 +1,54 @@
+.experience-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #3498db;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.experience-title {
+  color: #2c3e50;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.experience-period {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.experience-company {
+  color: #34495e;
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.experience-description {
+  color: #666;
+  line-height: 1.6;
+  margin: 10px 0 0;
+}
+
+@media (max-width: 768px) {
+  .experience-card {
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience-period {
+    margin-top: 5px;
+  }
+} 

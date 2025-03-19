@@ -1,0 +1,52 @@
+{
+    "inicio": {
+      
+      "descripcion": "Interesado en el desarrollo Full Stack y en mejorar constantemente mis habilidades. Aprendo rápido y disfruto enfrentando nuevos retos en tecnología."
+    },
+    "habilidades_tecnicas": {
+      "frontend": ["HTML", "CSS (puro)", "JavaScript", "TypeScript", "Figma"],
+      "backend": ["Node.js", "Express.js", "APIs REST", "SQL", "MongoDB", "Bash (Intermedio)"],
+      "full_stack": ["Desarrollo completo de aplicaciones web"],
+      "control_versiones": ["Git", "GitHub"],
+      "cloud_devops": ["Azure (Iniciando)"],
+      "metodologias_agiles": ["Scrum"],
+      "otros": ["Desarrollo ágil", "Automatización con RPA (Básico)"]
+    },
+    "habilidades_sociales": [
+      "Comunicación efectiva",
+      "Liderazgo",
+      "Trabajo en equipo",
+      "Honestidad",
+      "Responsabilidad"
+    ],
+    "nivel_ingles": "A2",
+    "experiencia_profesional": [
+      {
+        "nombre": "Servidor en Express para reseñas de productos",
+        "descripcion": "Backend con Node.js y Mysql"
+      },
+      {
+        "nombre": "Portafolio personal",
+        "descripcion": "Desarrollado con React y CSS"
+      }
+    ],
+    "estudios": [
+      {
+        "nombre": "Tecnología en Análisis y Desarrollo de Software",
+        "institucion": "SENA",
+        "anio": "2024 - 2025"
+      },
+      {
+        "nombre": "Curso Básico de RPA",
+        "institucion": "PIX",
+        "anio": "2024"
+      }
+    ],
+    "contacto_redes": {
+      "email": "Jefferlop2006@gmail.com",
+      "telefono": "+57 3024174025",
+      "ubicacion": "Colombia",
+      "github": "https://github.com/Jefriline"
+    }
+  }
+  

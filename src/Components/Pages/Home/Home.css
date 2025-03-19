@@ -1,0 +1,135 @@
+@import '../../../styles/variables.css';
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: center;
+  min-height: calc(100vh - var(--header-height));
+  padding: var(--spacing-2xl) 0;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.greeting {
+  font-size: var(--text-md);
+  color: var(--color-primary);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  font-size: var(--text-xl);
+  color: var(--color-gray-300);
+  line-height: 1.6;
+  margin: var(--spacing-md) 0;
+}
+
+.cta-container {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.cta-button {
+  padding: var(--spacing-md) var(--spacing-xl);
+  border-radius: var(--border-radius-md);
+  font-weight: 600;
+  transition: var(--transition-fast);
+  text-decoration: none;
+}
+
+.cta-primary {
+  background: var(--gradient-primary);
+  color: var(--color-white);
+  border: none;
+}
+
+.cta-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.cta-secondary {
+  background: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-primary);
+}
+
+.cta-secondary:hover {
+  background: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.home-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: var(--border-radius-full);
+  box-shadow: var(--shadow-2xl);
+}
+
+.background-shape {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-primary);
+  filter: blur(100px);
+  opacity: 0.15;
+  z-index: var(--z-negative);
+}
+
+/* Animaciones */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.home-image {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: var(--spacing-xl);
+    padding: var(--spacing-xl) 0;
+  }
+
+  .cta-container {
+    justify-content: center;
+  }
+
+  .home-image {
+    order: -1;
+  }
+
+  .profile-image {
+    max-width: 300px;
+  }
+}
