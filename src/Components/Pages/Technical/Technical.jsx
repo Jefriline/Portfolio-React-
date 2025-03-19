@@ -8,7 +8,7 @@ const Technical = () => {
     },
     {
       title: 'Backend',
-      skills: ['Node.js', 'Express.js', 'APIs REST', 'SQL', 'MongoDB', 'Bash (basico)','C#']
+      skills: ['Node.js', 'Express.js', 'APIs REST', 'SQL', 'MongoDB', 'Bash (basico)','C#','C++(basico)']
     },
     {
       title: 'Control de Versiones',
